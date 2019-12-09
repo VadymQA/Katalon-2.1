@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label__for_img_Nature</name>
+   <tag></tag>
+   <elementGuidId>b17d9209-c5c5-45a1-93ec-5678977d71d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;categoriesPictures&quot;]/div[3]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>videoMixedMedia</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Video</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;collapsePhotoLibrary&quot;)/div[@class=&quot;panel-body panel-body-media-library&quot;]/div[@class=&quot;radio-option fn-mixed-media&quot;]/label[1]</value>
+   </webElementProperties>
+</WebElementEntity>

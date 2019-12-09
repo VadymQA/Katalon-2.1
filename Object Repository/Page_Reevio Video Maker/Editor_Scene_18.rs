@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Editor_Scene_18</name>
+   <tag></tag>
+   <elementGuidId>ec29aa7f-efc6-47f3-a0d5-27a7bf49579e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;bottom-slider-id&quot;]/div[18]/figure</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-slideid = '14']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>14</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slideid</name>
+      <type>Main</type>
+      <value>14</value>
+   </webElementProperties>
+</WebElementEntity>

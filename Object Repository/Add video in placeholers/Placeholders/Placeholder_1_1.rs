@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Placeholder_1_1</name>
+   <tag></tag>
+   <elementGuidId>c7c00995-ca34-4df3-a4ef-6bbe809a42fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-vidpk = 'mixed-media1.1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vidpk</name>
+      <type>Main</type>
+      <value>mixed-media1.1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pk</name>
+      <type>Main</type>
+      <value>mixed-media1.1</value>
+   </webElementProperties>
+</WebElementEntity>

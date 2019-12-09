@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_Add media here_layer1</name>
+   <tag></tag>
+   <elementGuidId>e276a77d-ecb2-4092-ac54-433b3dc9c2f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>layer1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cls-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M6.732,17.2l6.248-6.248,3.3,3.3L10.036,20.5Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(-5.342 -8.687)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;this-is-mid&quot;)/div[@class=&quot;ratio-box&quot;]/div[@class=&quot;ratio-size wide-box&quot;]/div[@class=&quot;current-slide active-slide&quot;]/div[@class=&quot;item-form&quot;]/div[@class=&quot;field multi___element empty editor&quot;]/div[@class=&quot;btn add_mixed_media open-image-modal&quot;]/div[@class=&quot;delete-mixed-media delete-mixed-media-video&quot;]/svg[@class=&quot;svg dropzone-image svg-edit replaced-svg&quot;]/g[@id=&quot;Edit&quot;]/g[@id=&quot;edit-1582_7f7e9997-97fa-4afc-91df-c0306db2bdfe&quot;]/path[@id=&quot;layer1&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
