@@ -6,11 +6,15 @@
    <elementGuidId>e81b6ad0-9aa2-4ca9-91cb-5e4bd2fa124c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#itemContainer li:nth-child(7)</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//li[@id='link-of-scene']/div/div/div)[19]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

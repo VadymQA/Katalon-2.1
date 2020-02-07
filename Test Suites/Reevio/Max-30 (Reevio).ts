@@ -26,7 +26,7 @@
       <guid>b8c3ae45-3b60-4b44-8731-afa2c473bc51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Project names/Project name writting (max-30)</testCaseId>
+      <testCaseId>Test Cases/Project names/Project name writting (min)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>750eb9d4-12af-4888-9d7a-4bbf99b936f6</guid>

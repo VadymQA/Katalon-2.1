@@ -17,36 +17,34 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
 
 WebUI.delay(1)
 
-String sceneCore = "Page_Reevio Video Maker/Editor_Scene_" 
+String sceneCore = 'Page_Reevio Video Maker/Editor_Scene_'
 
- for (int i = 1; i < 31; i++) {
-	 
-	 if (WebUI.verifyElementPresent((findTestObject(sceneCore+i)), 1) == true) {
-		 
-	 
-	 WebUI.doubleClick(findTestObject(sceneCore+i))
-	 
-	 WebUI.click(findTestObject('Add video in placeholers/Video_img backgrounds/div_Background_Color'))
-	 
-	 WebUI.clearText(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/change color/input_RGB_hex-color'))
-	 
-	 WebUI.setText(findTestObject('Object Repository/Add video in placeholers/Video_img repository (videos, imgs and buttons)/change color/input_RGB_hex-color'),
-		 '#123456')
-	 
-	 WebUI.click(findTestObject('Object Repository/Add video in placeholers/Video_img repository (videos, imgs and buttons)/change color/button_Apply'))
-	 
-	 if (WebUI.verifyElementPresent(findTestObject('Page_Reevio Video Maker/Editor_Scene_'+i), 0) == true) {
-		 WebUI.doubleClick(findTestObject('Page_Reevio Video Maker/Editor_Scene_'+i))
-		 
-		 if (WebUI.verifyElementInViewport(findTestObject('Object Repository/Page_Login/logoPlaceholder1'), 0)) {
-			 WebUI.dragAndDropToObject(findTestObject('Page_Login/Logo_4'), findTestObject('Object Repository/Page_Login/logoPlaceholder1'))
-		 }
-	 }
-	 } else {
-	 break
-	 }
-	 
-	 Thread.sleep(500)
-} 
- 
- WebUI.doubleClick(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
+for (int i = 1; i < 31; i++) {
+    if (WebUI.verifyElementPresent(findTestObject(sceneCore + i), 1) == true) {
+        WebUI.doubleClick(findTestObject(sceneCore + i))
+
+        WebUI.click(findTestObject('Add video in placeholers/Video_img backgrounds/div_Background_Color'))
+
+        WebUI.clearText(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/change color/input_RGB_hex-color'))
+
+        WebUI.setText(findTestObject('Object Repository/Add video in placeholers/Video_img repository (videos, imgs and buttons)/change color/input_RGB_hex-color'), 
+            findTestData('vavowDate').getValue(6, 1))
+
+        WebUI.click(findTestObject('Object Repository/Add video in placeholers/Video_img repository (videos, imgs and buttons)/change color/button_Apply'))
+
+        if (WebUI.verifyElementPresent(findTestObject('Page_Reevio Video Maker/Editor_Scene_' + i), 0) == true) {
+            WebUI.doubleClick(findTestObject('Page_Reevio Video Maker/Editor_Scene_' + i))
+
+            if (WebUI.verifyElementInViewport(findTestObject('Object Repository/Page_Login/logoPlaceholder1'), 0)) {
+                WebUI.dragAndDropToObject(findTestObject('Page_Login/Logo_4'), findTestObject('Object Repository/Page_Login/logoPlaceholder1'))
+            }
+        }
+    } else {
+        break
+    }
+    
+    Thread.sleep(500)
+}
+
+WebUI.doubleClick(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
+

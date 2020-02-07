@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//li[@id='link-of-scene']/div/div/div</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#itemContainer li:nth-child(1)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

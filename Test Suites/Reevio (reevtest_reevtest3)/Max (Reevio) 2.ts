@@ -47,15 +47,33 @@
       <testCaseId>Test Cases/Drops color (1-30 scenes)</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>06f55e92-dabb-4cb3-a154-1d0d7a5fdd74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6619a3de-3d74-41cc-a04f-772e36079234</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Images adding/Background adding (Color 1-30cs) cycle</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>f4c7e86d-0875-4e17-acc9-017060b26534</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4b254169-2d17-4e06-96e8-935766e3137b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Images adding/Adding photo in placeholders (double cycle) Architecture</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1c63711-13dd-48f7-9e71-09fe637e72c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

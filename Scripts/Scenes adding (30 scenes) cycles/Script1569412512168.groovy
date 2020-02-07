@@ -1,7 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -12,6 +11,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import org.apache.commons.lang3.time.StopWatch as StopWatch
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import java.util.concurrent.TimeUnit as TimeUnit
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.waitForPageLoad(1)
 
@@ -23,7 +28,7 @@ WebUI.waitForPageLoad(5)
 WebUI.delay(1)
 
 for (int i = 1; i < 16; i++) {
-    WebUI.delay(1)
+    Thread.sleep(500)
 
     if (WebUI.verifyElementVisibleInViewport(findTestObject('Add video in placeholers/From recorder/Scenes_adding/div_Scene ' + 
             i), 1) == true) {
@@ -34,7 +39,7 @@ for (int i = 1; i < 16; i++) {
 
         WebUI.click(findTestObject('Add video in placeholers/From recorder/Scenes_adding/li__Scene_' + i))
 		
-		Thread.sleep(150)
+		Thread.sleep(200)
     } else {
         break
     }

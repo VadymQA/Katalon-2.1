@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
 			
 				int maxL = ((maxlength) as Integer)
 			
-				int max30 = maxL * 0.3
+				int max30 = maxL * 0.32
 			
 				for (int n = 0; n < max30; n++) {
 					WebUI.sendKeys(findTestObject('Page_Reevio Video Maker/Editor/Text Editor/input_Enable text_cinput'), Keys.chord(

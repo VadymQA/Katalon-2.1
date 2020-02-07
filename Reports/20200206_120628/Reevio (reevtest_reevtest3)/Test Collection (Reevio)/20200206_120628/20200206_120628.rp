@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20200206_120628</name>
+   <tag></tag>
+   <displayName>20200206_120628</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200206_120628/Reevio (reevtest_reevtest3)/Min (Reevio) 2/20200206_120629</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200206_120628/Reevio (reevtest_reevtest3)/Disable (Reevio) 2/20200206_120630</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200206_120628/Reevio (reevtest_reevtest3)/Max (Reevio) 2/20200206_120631</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200206_120628/Reevio (reevtest_reevtest3)/Max CAPS (Reevio) 2/20200206_120632</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Reevio (reevtest_reevtest3)/Test Collection (Reevio)</testSuiteCollectionId>
+</ReportCollectionEntity>

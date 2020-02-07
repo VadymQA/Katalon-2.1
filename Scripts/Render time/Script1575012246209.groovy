@@ -39,14 +39,6 @@ WebUI.navigateToUrl('https://app3.reevio.com/users/my-videos')
 
 String attMyVideos_1 = WebUI.getAttribute(myVideo_1, 'data-status')
 
-/*while (WebUI.verifyMatch(attMyVideos_1, 'done', false) == false) {
-    WebUI.delay(15)
-
-    WebUI.refresh()
-
-    attMyVideos_1 = WebUI.getAttribute(myVideo_1, 'data-status')
-} */
-
 WebUI.delay(0)
 //cycle for 30 min 
 for (int i = 1; i<91; i++) {
@@ -63,9 +55,7 @@ for (int i = 1; i<91; i++) {
 		msg = "Render Time is " + min + "min " + s + "s" 
 		break
 	}
-	
-	WebUI.delay(20)
-	
+	WebUI.delay(15)
 	WebUI.refresh()
 }
 

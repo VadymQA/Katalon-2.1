@@ -34,11 +34,11 @@ String sceneCore = "Page_Reevio Video Maker/Editor_Scene_"
 	
 	    WebUI.click(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/a_resetAllCategorisInLibrary'))
 	
-	    WebUI.delay(1)
+	    Thread.sleep(1500)
 	
 	    WebUI.click(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/label__for_img_Nature'))
 	
-	    WebUI.delay(1)
+	    Thread.sleep(1500)
 	
 	    WebUI.focus(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/div_photo-library/photo_library_'+i))
 	
@@ -50,9 +50,9 @@ String sceneCore = "Page_Reevio Video Maker/Editor_Scene_"
 	    WebUI.waitForElementVisible(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/div_Continue'), 
 	        5)
 	
-	    WebUI.delay(2)
-	
-	    WebUI.click(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/div_Continue'))
+	    Thread.sleep(3500)
+		
+		WebUI.click(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/div_Continue'))
 	
 	    WebUI.waitForElementVisible(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/div_Photo added'), 
 	        10)
@@ -83,11 +83,11 @@ String sceneCore = "Page_Reevio Video Maker/Editor_Scene_"
 		 
 		 WebUI.click(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/a_resetAllCategorisInLibrary'))
  
-		 WebUI.delay(1)
+		 Thread.sleep(1500)
  
 		 WebUI.click(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/label__for_img_Nature'))
  
-		 WebUI.delay(1)
+		 Thread.sleep(1500)
  
 		 WebUI.focus(findTestObject('Add video in placeholers/Video_img repository (videos, imgs and buttons)/div_photo-library/photo_library_'+i))
 	

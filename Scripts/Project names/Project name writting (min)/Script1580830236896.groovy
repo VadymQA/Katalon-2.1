@@ -28,5 +28,5 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor/videoTitle/input_Cont
 
 templateID = findTestData('vavowDate').getValue(1, 3)
 
-WebUI.setText(findTestObject('Page_Reevio Video Maker/Editor/videoTitle/input_Continue_videos-name'), attribute + '_MAX-30_' + templateID)
+WebUI.setText(findTestObject('Page_Reevio Video Maker/Editor/videoTitle/input_Continue_videos-name'), attribute + '_MIN_' + templateID)
 

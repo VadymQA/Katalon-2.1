@@ -41,15 +41,45 @@
       <testCaseId>Test Cases/Text disable (Double Cycle) 30sc</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>5c5dcb1a-8286-42d2-b2a0-8b2d02d354a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6ac54d49-f504-4356-ae8d-fe9a4d05440a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Video adding/Background adding (Video 1-20) cycle</testCaseId>
+      <testCaseId>Test Cases/Images adding/Background adding (images 1-30 sc) cycle</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c62a1476-d57d-4523-b330-8059cfe1b83d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dc925ba9-b8ab-4976-af95-b2ca716ac605</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Video adding/Video adding in placeholder (double cycle) 1-30</testCaseId>
+      <testCaseId>Test Cases/Images adding/Adding photo in placeholders (double cycle) Places</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd55e016-e8ba-4752-ab38-374c8a315f02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a755455-035f-49a4-b2fb-537332b1e494</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Adding_Music</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59e44bad-7e09-4ece-ba3e-041266c51645</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

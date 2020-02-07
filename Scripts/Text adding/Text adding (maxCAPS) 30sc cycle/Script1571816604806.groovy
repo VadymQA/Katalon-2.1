@@ -55,11 +55,20 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
 								
 			WebUI.sendKeys(findTestObject('Page_Reevio Video Maker/Editor/Text Editor/input_Enable text_cinput'), Keys.chord(Keys.BACK_SPACE))
 			
+			
 			} else if ((maxL < 100) == true) {
+			
+			if ((maxL < 10) == true) {
+				
+			WebUI.sendKeys(findTestObject('Page_Reevio Video Maker/Editor/Text Editor/input_Enable text_cinput'), Keys.chord(Keys.BACK_SPACE))
+			}
+			
+			else {
 			
 			WebUI.sendKeys(findTestObject('Page_Reevio Video Maker/Editor/Text Editor/input_Enable text_cinput'), Keys.chord(Keys.BACK_SPACE))
 								
 			WebUI.sendKeys(findTestObject('Page_Reevio Video Maker/Editor/Text Editor/input_Enable text_cinput'), Keys.chord(Keys.BACK_SPACE))
+			}
 			
 			}
 									

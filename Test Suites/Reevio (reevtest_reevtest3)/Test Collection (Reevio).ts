@@ -13,7 +13,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Reevio (reevtest_reevtest3)/Max-30 (Reevio) 2</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Reevio (reevtest_reevtest3)/Min (Reevio) 2</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -39,7 +39,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Reevio (reevtest_reevtest3)/Preview (Reevio) 2</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

@@ -47,9 +47,21 @@
       <testCaseId>Test Cases/Text field checker (Double Cycle) 30sc</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ca05a097-cfe4-4453-ab9b-bad8b9e1b32f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6fa9fe08-461f-41b8-b25c-ddd476f8846e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Timer (Preview scenes)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>024f7d38-c3df-4521-8033-775b443710e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/clickSavebtn</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
