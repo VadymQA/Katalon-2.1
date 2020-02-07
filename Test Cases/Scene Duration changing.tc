@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>Scene Duration changing</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>86a4f51a-5b29-4677-ba37-538d86eab067</testCaseGuid>
+   <testCaseGuid>16aec636-4ca8-4552-9446-8e189265a3f0</testCaseGuid>
 </TestCaseEntity>

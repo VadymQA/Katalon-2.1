@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
 
   for (int i = 1; i < 31; i++) {
 	  
-    if (WebUI.verifyElementPresent(findTestObject('Page_Reevio Video Maker/Editor_Scene_'+i), 0) == true) {
+    if (WebUI.verifyElementPresent(findTestObject('Page_Reevio Video Maker/Editor_Scene_'+i), 1) == true) {
 
 		WebUI.doubleClick(findTestObject('Page_Reevio Video Maker/Editor_Scene_'+i))
 		
-		if (WebUI.verifyElementInViewport(findTestObject('Drop/Drops_as_objects/div_Drop_1'), 0)) {
+		if (WebUI.verifyElementInViewport(findTestObject('Drop/Drops_as_objects/div_Drop_1'), 1)) {
 			WebUI.click(findTestObject('Drop/Drops_as_objects/div_Drop_1'))
 	
 			WebUI.click(findTestObject('Drop/input_RGB_drophex-color (Drop color)'))
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
 			
 			Thread.sleep(50)
 			
-		if (WebUI.verifyElementInViewport(findTestObject('Drop/Drops_as_objects/div_Drop_2'), 0)) {
+		if (WebUI.verifyElementInViewport(findTestObject('Drop/Drops_as_objects/div_Drop_2'), 1)) {
 			WebUI.click(findTestObject('Drop/Drops_as_objects/div_Drop_2'))
 			Thread.sleep(50)
 			WebUI.click(findTestObject('Drop/input_RGB_drophex-color (Drop color)'))
@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Page_Reevio Video Maker/Editor_Scene_1'))
 			WebUI.click(findTestObject('Drop/button_Apply(drop_color)'))
 			Thread.sleep(50)
 	
-		if (WebUI.verifyElementInViewport(findTestObject('Drop/Drops_as_objects/div_Drop_3'), 0)) {
+		if (WebUI.verifyElementInViewport(findTestObject('Drop/Drops_as_objects/div_Drop_3'), 1)) {
 			WebUI.click(findTestObject('Drop/Drops_as_objects/div_Drop_3'))
 			Thread.sleep(50)
 	

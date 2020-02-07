@@ -56,7 +56,7 @@
       <guid>ad070943-1a0a-402a-9eb6-81f9256509f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Images adding/Background adding (Color 1-30cs) cycle</testCaseId>
+      <testCaseId>Test Cases/Scene Duration changing</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>86306044-f473-4fea-becd-b65fe93fe41d</guid>
@@ -79,7 +79,7 @@
    <testCaseLink>
       <guid>a4e26d9d-f9e1-4ad1-90cd-ebcc5be337c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Video adding/Background adding (Video 1-20) cycle</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

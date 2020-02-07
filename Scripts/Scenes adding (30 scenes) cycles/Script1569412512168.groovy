@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.delay(1)
 
-for (int i = 1; i < 16; i++) {
+for (int i = 1; i < 12; i++) {
     Thread.sleep(500)
 
     if (WebUI.verifyElementVisibleInViewport(findTestObject('Add video in placeholers/From recorder/Scenes_adding/div_Scene ' + 
@@ -46,7 +46,7 @@ for (int i = 1; i < 16; i++) {
 }
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add video in placeholers/From recorder/2ndPageAddingScenes'),
-	1) == true) {
+	1) == false) {
 	WebUI.scrollToElement(findTestObject('Add video in placeholers/From recorder/2ndPageAddingScenes'), 1)
 	
 	WebUI.delay(3)
